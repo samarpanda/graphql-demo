@@ -23,6 +23,10 @@
     - Show [useQuery](https://www.apollographql.com/docs/tutorial/queries/) from apollo docs
     - Add some dummy data to show the Pet list items
 
+1. Mutation 
+    - `git checkout step-05`
+    - Use variables to pass input data
+    - Use `useMutation` hook to create a new pet
     
 
 
