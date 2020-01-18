@@ -1,0 +1,27 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node api/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarpanda/graphql-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarpanda/graphql-demo/issues"
+  },
+  "homepage": "https://github.com/samarpanda/graphql-demo#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.5.8",
+    "lowdb": "^1.0.0",
+    "nanoid": "^2.1.9"
+  }
+}
