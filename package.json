@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "node api/src/server.js",
+    "app": "parcel client/index.html --out-dir client/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,8 +21,24 @@
   "homepage": "https://github.com/samarpanda/graphql-demo#readme",
   "dependencies": {
     "apollo-server": "^2.9.16",
+    "flexboxgrid": "^6.3.1",
     "graphql": "^14.5.8",
     "lowdb": "^1.0.0",
-    "nanoid": "^2.1.9"
+    "nanoid": "^2.1.9",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.0.8",
+    "react-spinners": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-emotion": "^10.0.27",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^24.9.0",
+    "parcel": "^1.12.4"
   }
 }
