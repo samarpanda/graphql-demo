@@ -27,7 +27,18 @@
     - `git checkout step-05`
     - Use variables to pass input data
     - Use `useMutation` hook to create a new pet
-    
+
+1. Keeping Cache in Sync
+    - `git checkout step-06`
+    - Refetching matching queries after a mutation 
+    - Use [update](https://www.apollographql.com/docs/react/data/mutations/) method on mutation 
+    - Watch queries
+    - Don't need refresh to see the latest created item
+
+
+
+
+
 
 
 
