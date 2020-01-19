@@ -58,9 +58,9 @@ export default function Pets() {
     })
   }
 
-  // if(loading || newPet.loading) {
-  //   return <Loader />
-  // }
+  if(loading) {
+    return <Loader />
+  }
 
   if(error || newPet.error) {
     return <p>Error!</p>
