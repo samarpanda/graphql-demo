@@ -1,6 +1,8 @@
-1. GraphQL server setup
-    - `git checkout server`
-    - Apollo graphQL server Setup
+## GraphQL Serverside Setup
+  - `git checkout server`
+  - Apollo graphQL server Setup
+
+## GraphQL Client Side
 
 1. React client setup
     - `git checkout step-01`
@@ -9,13 +11,13 @@
     - `git checkout step-02`
     - Fetch data from external graphQL [API](https://rickandmortyapi.com/graphql)
     - Apollo chrome extension 
-    - Show what apolo cache contains 
+    - Show what apollo cache contains 
 
 1. Apollo client & hooks
     - `git checkout step-03`
     - Apollo provider wrapped around APP Component
     - Apollo chrome externsion configured by passing `"connectToDevTools": true` to ApolloClient
-    - Use Apollo externsion to figure out the query needed to fetch data
+    - Use Apollo extension to figure out the query needed to fetch data
 
 1. Querying Data 
     - `git checkout step-04`
@@ -45,7 +47,9 @@
     - How to manage local state with Apollo & GraphQL using client side schemas. By adding a directive.
     - Verify with a console.log to see the age property in the user data
 
-
+1. Fragments 
+    - `git checkout step-09`
+    - Instead of duplicating fields within different queries, one can use fragments.
 
 
 
