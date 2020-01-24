@@ -6,6 +6,7 @@
   "scripts": {
     "server": "node api/src/server.js",
     "app": "parcel client/index.html --out-dir client/dist",
+    "build": "parcel build client/index.html --out-dir client/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
