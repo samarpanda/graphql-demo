@@ -23,6 +23,12 @@ const query = gql`
 `
 
 client.query({query})
-  .then(result => console.log(result))
+  .then(result => {
+    // Result of graphQL Query
+    console.log(result);
+
+    // GraphQL In Memory Cache
+    console.log(cache.data.data);
+  })
 
 export default client
