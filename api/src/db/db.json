@@ -3,27 +3,5 @@
     "id": "123456789abcdefgh",
     "username": "jslovers"
   },
-  "pet": [
-    {
-      "id": "zXRqzUUst0pKqpGwdCIg5",
-      "createdAt": 1579335138180,
-      "name": "Mio",
-      "type": "DOG",
-      "user": "123456789abcdefgh"
-    },
-    {
-      "id": "uoyiost0wefasdf5",
-      "createdAt": 1572345234180,
-      "name": "Sia",
-      "type": "RABBIT",
-      "user": "123456789abcdefgh"
-    },
-    {
-      "id": "wertgsdfgKqpGwdCIg5",
-      "createdAt": 2345235138180,
-      "name": "Elen",
-      "type": "CAT",
-      "user": "123456789abcdefgh"
-    }
-  ]
+  "pet": []
 }
