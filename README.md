@@ -11,6 +11,14 @@
     - Apollo chrome extension 
     - Show what apolo cache contains 
 
+1. Apollo client & hooks
+    - `git checkout step-03`
+    - Apollo provider wrapped around APP Component
+    - Apollo chrome externsion configured by passing `"connectToDevTools": true` to ApolloClient
+    - Use Apollo externsion to figure out the query needed to fetch data
+
+    
+
 
 
 
