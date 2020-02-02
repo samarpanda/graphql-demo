@@ -40,6 +40,10 @@
     - Introduce a delay in client using `ApolloLink.from` & SetTimeout
     - Start an OptimisticResponse within createPet
 
+1. Client Side Schema 
+    - `git checkout step-08`
+    - How to manage local state with Apollo & GraphQL using client side schemas. By adding a directive.
+    - Verify with a console.log to see the age property in the user data
 
 
 
