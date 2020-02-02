@@ -35,6 +35,10 @@
     - Watch queries
     - Don't need refresh to see the latest created item
 
+1. Optimistic UI updates
+    - `git checkout step-07`
+    - Introduce a delay in client using `ApolloLink.from` & SetTimeout
+    - Start an OptimisticResponse within createPet
 
 
 
