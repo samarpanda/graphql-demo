@@ -17,6 +17,12 @@
     - Apollo chrome externsion configured by passing `"connectToDevTools": true` to ApolloClient
     - Use Apollo externsion to figure out the query needed to fetch data
 
+1. Querying Data 
+    - `git checkout step-04`
+    - Use `useQuery` method from `apollo/react-hook` to run query
+    - Show [useQuery](https://www.apollographql.com/docs/tutorial/queries/) from apollo docs
+    - Add some dummy data to show the Pet list items
+
     
 
 
